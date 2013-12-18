@@ -419,6 +419,10 @@ static void ofxUISetColor(ofxUIColor color)
 {
     ofSetColor(color);
 }
+static void ofxUISetColor(int Grey)
+{
+    ofSetColor( ofxUIColor(Grey) );
+}
 
 static void ofxUIFill()
 {
