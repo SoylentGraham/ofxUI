@@ -1125,6 +1125,9 @@ public:
         }
         widget->clearEmbeddedWidgets();
 
+		if( lastAdded == widget )
+			lastAdded = NULL;
+
         delete widget;
     }    
 
